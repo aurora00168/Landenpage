@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Reem+Kufi:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+
+body{
+    background-image:url("./BannerBackground.png") ;
+    background-position:top right ;
+    height: auto;
+    background-repeat: no-repeat;
+}
+  
+   .menu{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    color: black;
+    font-family: montserrat; 
+    padding: 10px;
+    align-items: center;
+    flex: 1 0 0;
+    gap: 40px;
+    align-self: stretch;
+    }
+
+    .principal{
+        color: #fe9e0d;
+        font-family:reem kufi;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .ancora{
+        color: #373737;
+        font-size: 21px;
+        font-style: normal;
+        font-family: montserrat;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .FOODIE{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .botao{
+        display: flex;
+        width: 218px;
+        height: 72px;
+        padding: 28px 30px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 72px;
+        background: #fff;
+    }
+.texto{color: #4C4C4C;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.texto1{
+    color: #828282;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.caixabotao{
+display: flex;
+padding: 30px 30px;
+width: 280px;
+height: 80px;
+font-family:Montserrat;
+justify-content: center;
+align-items: center;
+gap: 15px;border-radius: 30px;
+background: #FE9E0D;
+ color: #FFF;
+font-family:Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.foto{
+    width: 1146px;
+    height: 1146px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
